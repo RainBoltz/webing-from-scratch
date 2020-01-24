@@ -11,6 +11,6 @@
 ## 內容
 
 我們要修改 hw1 的程式碼，來完成下列目標：
-0. 順利啟動 startserver.py
-1. 呼叫 http://127.0.0.1:8888/api/v1.1/getMessage 時，返回 {"msg": "Hello!!!"}
-2. 呼叫 http://127.0.0.1:8888/api/v1.1/getMessage?name=philip 時，返回 {"msg": "Hello, philip!"}，其中philip可以任意替換
+1. 順利啟動 startserver.py
+2. 呼叫 http://127.0.0.1:8888/api/v1.1/getMessage 時，返回 {"msg": "Hello!!!"}
+3. 呼叫 http://127.0.0.1:8888/api/v1.1/getMessage?name=philip 時，返回 {"msg": "Hello, philip!"}，其中philip可以任意替換

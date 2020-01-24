@@ -6,15 +6,17 @@
 
 自己拉一個fork，然後定期上傳作業即可。
 
-## 所有作業
-#### 最新作業: hw7
+下一個 hw 發布後會將前一個 hw 的解答上傳在 solution 資料夾內。
 
-- W3School HTML+JS 基礎練習 (hw0)
-- 認識基礎 API 架構 (hw1)
+## 所有作業
+#### 最新作業: [hw7](https://github.com/RainBoltz/webing-from-scratch/tree/master/hw7)
+
+- W3School HTML+JS 基礎練習 ([hw0](https://github.com/RainBoltz/webing-from-scratch/tree/master/hw0))
+- 認識基礎 API 架構 ([hw1](https://github.com/RainBoltz/webing-from-scratch/tree/master/hw1))
 - API 實作
-	- 後端回應練習 (hw2, hw3)
-	- 前後端整合操作練習 (hw4, hw5)
-    - 利用物件導向改善程式碼架構 (hw6)
+	- 後端回應練習 ([hw2](https://github.com/RainBoltz/webing-from-scratch/tree/master/hw2), [hw3](https://github.com/RainBoltz/webing-from-scratch/tree/master/hw3))
+	- 前後端整合操作練習 ([hw4](https://github.com/RainBoltz/webing-from-scratch/tree/master/hw4), [hw5](https://github.com/RainBoltz/webing-from-scratch/tree/master/hw5))
+    - 利用物件導向改善程式碼架構 ([hw6](https://github.com/RainBoltz/webing-from-scratch/tree/master/hw6))
 - 前端實作
-	- 繪製圖形 (hw7)
+	- 繪製圖形 ([hw7](https://github.com/RainBoltz/webing-from-scratch/tree/master/hw7))
 	- 優化繪製過程
