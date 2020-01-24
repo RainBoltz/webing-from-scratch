@@ -7,6 +7,7 @@
 - [ ] 更了解 HTML 網頁設計
 - [ ] 懂得操作 JavaScript 的外部函式庫
 - [ ] 大略理解 JavaScript 的同步/異步問題
+- [ ] 了解如何動態生成 html component
 
 ## 內容
 
