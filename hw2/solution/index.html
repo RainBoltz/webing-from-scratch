@@ -1,0 +1,26 @@
+<html>
+<div>
+    <input type="text" id="name" />
+    <button onclick="test()">SEND</button>
+</div>
+<div>
+    MESSAGE: <p id="msg"></p>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script>
+    function test(){
+        let N = $("#name").val();
+        let param = "";
+        if(N != '') param = "?name=" + N;
+        $.ajax({
+            type:'GET',
+            url:'http://127.0.0.1:8888/api/v1.1/getMessage' + param,
+            success:  function(response){
+                var res = JSON.parse(response);
+                $('#msg').html(res.msg);
+            }
+        })
+    }
+</script>
+</html>

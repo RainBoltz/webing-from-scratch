@@ -1,0 +1,32 @@
+<html>
+<div>
+    <form action="/valid/register" method="post" id="registForm">
+      username: <input type="text" name="usr"><br>
+      password: <input type="password" name="psw"><br>
+      email: <input type="email" name="eml"><br>
+      <input type="submit" value="Submit">
+    </form>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script>
+    $("#registForm").submit(function(e) {
+
+        var form = $(this);
+        var url = form.attr('action');
+
+        $.ajax({
+               type: "POST",
+               url: url,
+               data: form.serialize(),
+               success: function(data)
+               {
+                   alert(data);
+                   window.location.href = "/";
+               }
+             });
+
+        e.preventDefault();
+    });
+</script>
+</html>
