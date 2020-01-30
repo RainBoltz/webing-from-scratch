@@ -6,8 +6,8 @@
 - [ ] 願意花很多時間debug
 - [ ] 更了解 HTML 網頁設計
 - [ ] 懂得操作 JavaScript 的外部函式庫
-- [ ] 大略理解 JavaScript 的同步/異步問題
-- [ ] 了解如何動態生成 html component
+- [ ] 發現並解決 Callback function 「與世隔絕」的問題 (可能用到同步/異步觀念，略懂即可)
+- [ ] 了解如何動態生成 html 物件 (利用 amcharts 官網 candlestick [範例程式碼](https://www.amcharts.com/docs/v4/reference/candlestick/))
 
 ## 內容
 
